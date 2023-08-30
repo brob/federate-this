@@ -62,7 +62,7 @@ export default function Home() {
       <section className="mt-24">
       <h2 className="text-4xl font-bold">Dev.to Route</h2>
       <p className="text-2xl text-blue-600"><Link href="/api/devto/articles/brob">/api/devto/articles/:username</Link></p>
-      <p className="text-2xl text-blue-600"><Link href="/api/devto/articles/123">/api/devto/articles/:id</Link></p>
+      {/* <p className="text-2xl text-blue-600"><Link href="/api/devto/articles/123">/api/devto/articles/:id</Link></p> */}
       <h3 className="text-3xl font-bold">Potential SDL</h3>
       <pre className="text-md">
         <code>
