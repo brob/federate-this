@@ -8,7 +8,6 @@ export async function GET(
   ) {
     const id = params.id // 'a', 'b', or 'c'
     const product = products.find((p) => p.id == id)
-    console.log(product)
 
     // return products based on nextjs return
     return NextResponse.json({ data: product })

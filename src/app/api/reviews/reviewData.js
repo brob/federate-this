@@ -20,6 +20,4 @@ export const reviews = [
         rating: 4.5,
         comment: 'This is review 3',
     }
-
-
 ]
