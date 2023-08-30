@@ -4,7 +4,8 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <main className="min-h-screen flex-col items-center justify-between p-24">
-      <h1 className="text-6xl font-bold">Federate This: Your collection of fake APIs to use content federation</h1>
+      <h1 className="text-6xl font-bold">Federate This</h1>
+      <h2 className="text-4xl font-bold">Your collection of fake APIs to use content federation in demos</h2>
     
       <section className="mt-24">
       <h2 className="text-4xl font-bold">Products Route</h2>
